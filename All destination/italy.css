@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #343a40;
+}
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active{
+    color:rgb(169, 162, 162)
+}
+.active:hover{
+    color: #fff;
+}
+.main{
+    background-color: rgb(46, 143, 172);
+    padding: 40px 10px;
+}
+.text-1{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5px;
+  color:#fff;
+}
+.text-2{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.italy{
+    margin: 40px;
+}
+.para{
+    margin-top: 10px;
+}
+.cities{
+    margin: 40px;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 30%;
+}
+
+.container{
+    padding: 10px 10px;
+}
+.btm-para{
+    margin-left: 40px;
+}
+.savor-italian{
+    font-size: 30px;
+    font-weight:600;
+}
+.bottom-para{
+  color: gray;
+ margin-left: 40px;
+}
+
+
+.bottom{
+    background-color: #343a40;
+    margin-top: 30px;
+    padding: 10px;
+}
+.rights{
+    text-align: center;
+    color: #ffff;
+}
